@@ -17,19 +17,19 @@ This is a simple Node.js authentication system using MongoDB, Express, and JSON 
 ## Getting Started
 
 1. Clone the repository:
-´´git clone https://github.com/yourusername/node-mongodb-auth.git´´
-´´cd node-mongodb-auth´´
+``git clone https://github.com/yourusername/node-mongodb-auth.git``
+``cd node-mongodb-auth``
 
 2. Install dependencies:
-´´yarn install´´
+``yarn install``
 
 
 3. Create a `.env` file in the root of the project directory and add the following environment variables:
-´´JWT_SECRET=your_jwt_secret´´
-´´JWT_EXPIRES_IN=1d´´
+``JWT_SECRET=your_jwt_secret``
+``JWT_EXPIRES_IN=1d``
 
 4. Start the development server:
-´´yarn dev´´
+``yarn dev``
 
 5. Access the API endpoints with a tool like Postman or curl:
 
